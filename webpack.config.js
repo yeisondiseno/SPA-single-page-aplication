@@ -5,7 +5,7 @@ const { resolve } = require('path');
 module.exports = {
     entry: './src/index.js',
     output: {
-        path: path.resolve(_driname, 'dist'),
+        path: path.resolve(__dirname, 'dist'),
         filename: 'main.js'
     },
     resolve: {
